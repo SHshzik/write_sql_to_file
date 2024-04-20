@@ -1,8 +1,13 @@
-Gem::Specification.new do |s|
-  s.name        = 'write_sql_to_file'
-  s.version     = '0.0.2'
-  s.summary     = 'Write to_sql result to file'
-  s.authors     = ['Andrey Salnikov']
-  s.email       = 'andrycalnicow@gmail.com'
-  s.files       = Dir['lib/**/*.rb']
+# frozen_string_literal: true
+
+Gem::Specification.new do |spec|
+  spec.authors     = ['Andrey Salnikov']
+  spec.files       = Dir['lib/**/*.rb']
+  spec.name        = 'write_sql_to_file'
+  spec.summary     = 'Write to_sql result to file'
+  spec.version     = '0.0.3'
+
+  spec.email       = 'andrycalnicow@gmail.com'
+  spec.homepage    = 'https://github.com/SHshzik/write_sql_to_file'
+  spec.license     = 'MIT'
 end
